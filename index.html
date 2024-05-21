@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    
+</head>
+<style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            height: 1200px;
+            color: white;
+        }
+        .left{
+            
+            display: inline-block;
+            position: absolute;
+            left: 40px;
+            top: 20px;
+
+        }
+        .mid{
+            border: 3px solid rgb(217, 236, 236);
+            border-radius: 10px;
+            display: block;
+          
+           height: 25px;
+            width: 38%;
+            margin: 20px auto;
+           
+        }
+       
+        .right{
+            
+            display: inline-block;
+            
+            position: absolute;
+            right: 40px;
+            top: 20px;
+          
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 30px 25px;
+            font-size: 18px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+           color: grey;
+        }
+        
+        .left p{
+            text-align: center;
+        } 
+        .btn{
+           border: 3px solid rgb(151, 155, 155);
+           background-color: #4ae2f3;
+           border-radius: 5px;
+           padding:  3px 20px;
+           color: white;
+        }
+        .btn:hover{
+            background-color: #aae0ed;
+            color: black;
+        }
+       
+</style>
+<body>
+    <div class="left">
+        <img src="logo.jpg"   width="100px"alt="error">
+        <p>Harry Fitness</p>
+    </div>
+    
+    <div class="mid">
+        <div class="navbar">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">Conatact Us</a></li>
+            <li><a href="#">Fitness Calaculator</a></li>
+        </div>
+    </div>
+    <div class="right">
+        <button class="btn">Call us Now</button>
+        <button class="btn">Email us</button>
+    </div>
+    
+</body>
+</html>
